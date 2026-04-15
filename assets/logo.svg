@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Blue Mountain Volunteer Fire Department">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0a1f3a"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc857"/>
+      <stop offset="50%" stop-color="#ef6c1b"/>
+      <stop offset="100%" stop-color="#b8261a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield -->
+  <path d="M100 8 L188 36 C188 36 188 140 172 174 C156 208 128 228 100 236 C72 228 44 208 28 174 C12 140 12 36 12 36 Z"
+        fill="url(#shieldGrad)" stroke="#f4e9c1" stroke-width="3"/>
+
+  <!-- Inner frame -->
+  <path d="M100 20 L176 44 C176 44 176 138 162 168 C148 198 124 216 100 224 C76 216 52 198 38 168 C24 138 24 44 24 44 Z"
+        fill="none" stroke="#f4e9c1" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Mountain silhouette -->
+  <path d="M30 160 L62 118 L82 140 L112 96 L142 134 L170 160 Z"
+        fill="#6b8cae" opacity="0.35"/>
+  <path d="M30 170 L62 128 L82 150 L112 106 L142 144 L170 170 L170 175 L30 175 Z"
+        fill="#2c4a70"/>
+
+  <!-- Maltese cross behind flame -->
+  <g transform="translate(100 100)" opacity="0.9">
+    <path d="M0 -44 L12 -12 L44 0 L12 12 L0 44 L-12 12 L-44 0 L-12 -12 Z"
+          fill="#c4352a" stroke="#f4e9c1" stroke-width="1.5"/>
+    <circle r="8" fill="#f4e9c1"/>
+  </g>
+
+  <!-- Flame on top -->
+  <path d="M100 40 C108 54 118 60 118 72 C118 82 110 88 100 88 C90 88 82 82 82 72 C82 60 92 54 100 40 Z"
+        fill="url(#flameGrad)" opacity="0.95"/>
+
+  <!-- Banner text -->
+  <text x="100" y="205" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#f4e9c1" letter-spacing="2">BMVFD</text>
+  <text x="100" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#f4e9c1" letter-spacing="1.5" opacity="0.85">EST · BLUE MOUNTAIN MS</text>
+</svg>
